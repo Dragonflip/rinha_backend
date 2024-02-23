@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "rinha-backend"
+version = "0.1.0"
+description = ""
+authors = ["jpmarques <jpmarquesdeoliveira@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+fastapi = "^0.109.2"
+uvicorn = "^0.27.1"
+sqlalchemy = "^2.0.27"
+alembic = "^1.13.1"
+pydantic-settings = "^2.2.1"
+psycopg2-binary = "^2.9.9"
+
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.0.1"
+blue = "^0.9.1"
+pyright = "^1.1.351"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

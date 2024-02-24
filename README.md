@@ -2,6 +2,19 @@
 
 Este é um projeto Python desenvolvido para participar da rinha de backend.
 
+## Requisitos
+
+- python = "^3.11"
+- fastapi = "^0.109.2"
+- uvicorn = "^0.27.1"
+- sqlalchemy = "^2.0.27"
+- alembic = "^1.13.1"
+- pydantic-settings = "^2.2.1"
+- psycopg2-binary = "^2.9.9"
+- asyncpg = "^0.29.0"
+
+## Funcionalidades
+
 ### Transações
 **Requisição**
 
@@ -103,17 +116,6 @@ Para haver ênfase em concorrência durante o teste, poucos clientes devem ser c
 | 4 | 10000000 | 0
 | 5 | 500000 | 0
 
-
-## Requisitos
-
-- python = "^3.11"
-- fastapi = "^0.109.2"
-- uvicorn = "^0.27.1"
-- sqlalchemy = "^2.0.27"
-- alembic = "^1.13.1"
-- pydantic-settings = "^2.2.1"
-- psycopg2-binary = "^2.9.9"
-- asyncpg = "^0.29.0"
 
 ## Como Usar
 
